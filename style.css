@@ -16,6 +16,8 @@ html {
 
 body {
 	font-family: 'WorkSans', sans-serif;
+	/* overflow: hidden; */
+	background-color: black;
 }
 
 ul,
@@ -69,4 +71,11 @@ nav {
 
 .profile:hover {
 	color: white;
+}
+
+/* Carousel */
+
+
+.glide img {
+	width: 100%;
 }
