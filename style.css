@@ -17,3 +17,56 @@ html {
 body {
 	font-family: 'WorkSans', sans-serif;
 }
+
+ul,
+li,
+a,
+.fas {
+	text-decoration: none;
+	list-style: none;
+	color: rgb(200, 200, 200);
+}
+
+/* Nav */
+
+.main-head {
+	background-color: black;
+	color: white;
+	min-height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 90%;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.fas {
+	font-size: 1.5rem;
+	margin-right: 4rem;
+	cursor: pointer;
+}
+
+.fas:hover {
+	color: white;
+}
+
+.logo {
+	justify-self: center;
+	font-size: 3rem;
+	cursor: pointer;
+}
+
+.profile {
+	justify-self: right;
+	font-size: 1.5rem;
+}
+
+.profile:hover {
+	color: white;
+}
